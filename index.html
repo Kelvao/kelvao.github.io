@@ -1,0 +1,51 @@
+---
+title: Kélvão
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">
+			Bem Vindo(a)!
+		</h2>
+		<p class="subtext editable">
+			Aqui voc&ecirc; encontrar&aacute; c&oacute;digos aleat&oacute;rios descobertos por mim que provavelmente voc&ecirc; n&atilde;o encontrar&aacute; na internet.
+		</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contato</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Some of our work</h3>
+			<p class="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
+			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for client in site.clients limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}" /></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			<ul class="image-list">
+				<li><img src="{{ site.baseurl }}/images/cloudcannon-logo-blue.svg" width="250" style="margin-bottom: 40px;" /></li>
+				<li><img src="{{ site.baseurl }}/images/jekyll-logo-black-red-transparent.png" width="300" /></li>
+			</ul>
+		</div>
+		<div>
+			<h3 class="editable">
+				Este site foi gerado utilizando cloudcannon e jekyll
+			</h3>
+			<p class="editable">
+				Eu n&atilde;o sou o cara de web, ent&atilde;o utilizei essas duas ferramentas mais a minha pr&oacute;pria conta do Github para gerar este site.
+			</p>
+		</div>
+	</div>
+</section>

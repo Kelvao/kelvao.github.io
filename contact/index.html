@@ -1,0 +1,281 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Contato | Urban Template</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Contato" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Jekyll template with example content for a web agency." />
+<meta property="og:description" content="Jekyll template with example content for a web agency." />
+<link rel="canonical" href="https://teal-worm.cloudvent.net/contact/" />
+<meta property="og:url" content="https://teal-worm.cloudvent.net/contact/" />
+<meta property="og:site_name" content="Urban Template" />
+<script type="application/ld+json">
+{"description":"Jekyll template with example content for a web agency.","@type":"WebPage","url":"https://teal-worm.cloudvent.net/contact/","headline":"Contato","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="https://teal-worm.cloudvent.net/feed.xml" title="Urban Template" />
+
+		<link rel="stylesheet" href="/css/screen.css">
+
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		
+			<script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '', 'auto');
+				ga('send', 'pageview');
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="company-name"><a href="/"><img src="/images/logo.svg" alt="Urban" width="150"></a></h1>
+				<nav>
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+	<ul>
+		
+			
+			
+
+			
+			<li><a href="/portfolio/" class="" >Portfolio</a></li>
+		
+			
+			
+
+			
+			<li><a href="/blog/" class="" >Blog</a></li>
+		
+			
+			
+
+			
+			<li><a href="/about/" class="" >Sobre</a></li>
+		
+			
+			
+
+			
+			<li><a href="/contact/" class=" active" >Contato</a></li>
+		
+	</ul>
+</nav>
+
+			</div>
+		</header>
+		<section class="hero diagonal">
+	<div class="container" >
+		
+			<h2>Contato</h2>
+		
+		
+			<p class="subtext">Manda uma mensagem ai, pode ser tanto uma duvida quanto negociar algo. Fique a vontade :D</p>
+		
+	</div>
+</section>
+
+<section class="diagonal">
+	<div class="container">
+		<form action="/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="support@example.com" />
+			<input type="text" name="_gotcha" style="display: none;" />
+
+			<div class="halves">
+				<div>
+					<label for="name">First Name</label>
+					<input type="text" name="first-name" id="first-name" placeholder="John" />
+				</div>
+
+				<div>
+					<label for="name">Last Name</label>
+					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
+				</div>
+			</div>
+
+			<label for="email">Email Address</label>
+			<input type="email" name="email" id="email" placeholder="john@example.com" required />
+
+			<label for="message">Message</label>
+			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
+
+			<input type="submit" value="Send Message" />
+		</form>
+	</div>
+</section>
+
+<section class="diagonal map">
+	<div id="gmap_canvas"></div>
+</section>
+
+<section class="diagonal">
+	<div class="container halves aligned-top">
+		<div>
+			<h3>Address</h3>
+				<address><a target="_blank" href="https://www.google.com/maps/place/1+George+Street%2C+Dunedin%2C+New+Zealand">1 George Street, <br>Dunedin, <br>New Zealand</a></address>
+		</div>
+		<div>
+			<h3>Email</h3>
+			<p><a href="mailto:kelvin.ievenes@fatec.sp.gov.br">kelvin.ievenes@fatec.sp.gov.br</a></p>
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript">
+	window.mapData = {"latitude":-45.8787605,"longitude":170.5027976,"address":"1 George Street, Dunedin, New Zealand","zoom":13};
+
+	function initMap() {
+		var myOptions = {
+			scrollwheel: false,
+			draggable: false,
+			panControl: false,
+			disableDefaultUI: true,
+			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
+			zoom: window.mapData.zoom,
+			maxZoom: window.mapData.zoom,
+			minZoom: window.mapData.zoom,
+			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+		marker = new google.maps.Marker({
+			map: map,
+			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
+		});
+
+		google.maps.event.addDomListener(window, "resize", function () {
+			map.setCenter(myOptions.center);
+		});
+	}
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap"></script>
+
+
+
+		<footer class="diagonal">
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
+
+				<div class="footer-columns">
+					
+						<ul class="footer-links">
+							<li>
+								<h2>Páginas</h2>
+							</li>
+							
+								<li>
+									<a  href="/" >
+										
+
+										Home
+									</a>
+								</li>
+							
+								<li>
+									<a  href="/portfolio/" >
+										
+
+										Portfolio
+									</a>
+								</li>
+							
+								<li>
+									<a  href="/blog/" >
+										
+
+										Blog
+									</a>
+								</li>
+							
+								<li>
+									<a  href="/about/" >
+										
+
+										Sobre
+									</a>
+								</li>
+							
+								<li>
+									<a  href="/contact/" >
+										
+
+										Contato
+									</a>
+								</li>
+							
+						</ul>
+					
+						<ul class="footer-links">
+							<li>
+								<h2>Social</h2>
+							</li>
+							
+								<li>
+									<a target="_blank" href="https://www.facebook.com/Kelvaum" class="facebook-icon">
+										
+											
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+	
+
+										
+
+										Facebook
+									</a>
+								</li>
+							
+								<li>
+									<a target="_blank" href="https://www.linkedin.com/in/k%C3%A9lvin-tesche-ievenes/" class="linkedin-icon">
+										
+											
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+	
+
+										
+
+										LinkedIn
+									</a>
+								</li>
+							
+						</ul>
+					
+
+					<ul class="footer-links">
+						<li>
+							<h2>Kélvão</h2>
+						</li>
+						<li>Bringing the best experiences to the web for you and your clients.</li>
+						<li><a href="/feed.xml">
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+
+ Subscribe with RSS</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="legal-line">
+				<p class="container">
+					&copy; 2018 Kélvão
+					&bull;
+					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
+				</p>
+			</div>
+		</footer>
+
+
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+	</body>
+</html>

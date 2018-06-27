@@ -1,9 +1,9 @@
 ---
-title: Primeiro Post
+title: Primeiro Post!
 categories:
 author_staff_member: kélvin-tesche-ievenes
 show_comments: true
-date: 2018-06-20 00:00:00
+date: 2018-06-27 00:00:00
 ---
 
 Boa noite meus caros leitores! Este &eacute; meu primeiro post! **AEHOOO**
@@ -20,4 +20,4 @@ Provavelmente voc&ecirc; ir&aacute; ver muitos gifs como este por aqui, ja que e
 
 [via GIPHY](https://giphy.com/gifs/reaction-vUUAX04g3fto4)
 
-Ent&atilde;o, aguarde os pr&oacute;ximos posts, n&atilde;o ter&aacute; um hor&aacute;rio ou dias definidos para rolar postagens, por isso caso queira acompanhar se inscreva no antigo RSS e divirta-se!.
+Ent&atilde;o, aguarde os pr&oacute;ximos posts, n&atilde;o ter&aacute; um hor&aacute;rio ou dias definidos para rolar postagens, por isso caso queira acompanhar se inscreva no velho amigo RSS e divirta-se!.

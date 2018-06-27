@@ -2,7 +2,7 @@
 name: Kélvin Tesche Ievenes
 position: Developer
 image_path: /site.png
-facebook: Kelvaum
+twitter: KelvinIevenes
 ---
 
 Dono desse rol&ecirc; todo

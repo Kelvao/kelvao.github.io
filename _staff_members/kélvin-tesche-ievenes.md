@@ -1,6 +1,8 @@
 ---
 name: Kélvin Tesche Ievenes
-position:
-image_path:
+position: Developer
+image_path: /site.png
 twitter:
 ---
+
+Dono desse rol&ecirc; todo

@@ -4,7 +4,7 @@
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
-$brand-color: ##00bcd4;
+$brand-color: #00bcd4;
 $html-background-color: #222;
 $secondary-brand-color: #008ba3;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);

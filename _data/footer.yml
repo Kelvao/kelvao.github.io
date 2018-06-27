@@ -1,0 +1,22 @@
+- title: Páginas
+  links:
+    - name: Home
+      link: /
+    - name: Portfolio
+      link: /portfolio/
+    - name: Blog
+      link: /blog/
+    - name: Sobre
+      link: /about/
+    - name: Contato
+      link: /contact/
+- title: Social
+  links:
+    - name: Facebook
+      link: 'https://www.facebook.com/Kelvaum'
+      social_icon: Facebook
+      new_window: true
+    - name: LinkedIn
+      link: 'https://www.linkedin.com/in/k%C3%A9lvin-tesche-ievenes/'
+      social_icon: LinkedIn
+      new_window: true

@@ -1,0 +1,6 @@
+<h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
+{% include post-title-navigation.html post=include.post %}
+<div class="post-content">
+	{{ include.post.excerpt }}
+	<p><a href="{{ site.baseurl }}{{ include.post.url }}">Leia mais &rarr;</a></p>
+</div>

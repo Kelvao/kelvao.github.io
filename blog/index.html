@@ -21,13 +21,13 @@ subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é cla
 		<!-- Pagination links -->
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Novos posts</a>
+				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Posts recentes </a>
 			{% endif %}
 
 			<span class="page_number ">{{ paginator.page }} de {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Posts antigos &rarr;</a>
+				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn"> Posts antigos &rarr;</a>
 			{% endif %}
 		</div>
 	</section>

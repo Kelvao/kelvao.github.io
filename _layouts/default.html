@@ -30,14 +30,7 @@
 				{% include navigation.html %}
 			</div>
 		</header>
-        <div class="container">
-            <div id="search-container">
-                <input type="text" id="search-input" placeholder="search...">
-                <ul id="results-container"></ul>
-            </div>
-        </div>
 		{{ content }}
-
 		<footer class="diagonal">
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
@@ -88,6 +81,7 @@
             SimpleJekyllSearch({
               searchInput: document.getElementById('search-input'),
               resultsContainer: document.getElementById('results-container'),
+              searchResultTemplate: '<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>',
               json: '{{ site.baseurl }}/search.json'
             })
         </script>

@@ -11,6 +11,9 @@ layout: default
 		{% if blog.subtitle %}
 			<p class="subtext">{{ blog.subtitle }}</p>
 		{% endif %}
+		{% if page.posts.size > 1 %}
+		    {% include search.html %}
+	    {% endif %}
 	</div>
 </section>
 <section class="diagonal">

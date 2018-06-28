@@ -28,7 +28,9 @@ layout: page
 <section class="diagonal">
     <div class="container">
         <h2>Comentários</h2>
-        {% include  facebook-comments.html %}
+        <div class="container">
+            {% include  facebook-comments.html %}
+        </div>
 	</div>
 </section>
 
@@ -40,6 +42,8 @@ layout: page
 				{% include post-summary.html post=page.next %}
 			{% elsif page.previous %}
 				{% include post-summary.html post=page.previous %}
+			{% else %}
+			    {% include post-sumary.html post=page.end %}
 			{% endif %}
 		</div>
 	</div>

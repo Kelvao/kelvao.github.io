@@ -35,7 +35,7 @@ layout: page
 	</div>
 </section>
 {% endif %}
-
+{% if page.next or page.previous %}
 <section class="diagonal alternate">
 	<div class="text-container">
 		{% if page.next %}
@@ -55,6 +55,7 @@ layout: page
 		{% endif %}
 	</div>
 </section>
+{% endif %}
 
 <!--{% if site.disqus_shortname and page.show_comments %}
 	<section class="diagonal">

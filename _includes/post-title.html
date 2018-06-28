@@ -6,18 +6,18 @@
 	{% endfor %}
     {% assign m = include.post.date | date: "%-m" %}
     {% case m %}
-        {% when '1' %}{% m = 'Janeiro' %}
-        {% when '2' %}{% m = 'Fevereiro' %}
-        {% when '3' %}{% m = 'Março' %}
-        {% when '4' %}{% m = 'Abril' %}
-        {% when '5' %}{% m = 'Maio' %}
-        {% when '6' %}{% m = 'Junho' %}
-        {% when '7' %}{% m = 'Julho' %}
-        {% when '8' %}{% m = 'Agosto' %}
-        {% when '9' %}{% m = 'Setembro' %}
-        {% when '10' %}{% m = 'Outubro' %}
-        {% when '11' %}{% m = 'Novembro' %}
-        {% when '12' %}{% m = 'Dezembro' %}
+        {% when '1' %}{% assign m = 'Janeiro' %}
+        {% when '2' %}{% assign m = 'Fevereiro' %}
+        {% when '3' %}{% assign m = 'Março' %}
+        {% when '4' %}{% assign m = 'Abril' %}
+        {% when '5' %}{% assign m = 'Maio' %}
+        {% when '6' %}{% assign m = 'Junho' %}
+        {% when '7' %}{% assign m = 'Julho' %}
+        {% when '8' %}{% assign m = 'Agosto' %}
+        {% when '9' %}{% assign m = 'Setembro' %}
+        {% when '10' %}{% assign m = 'Outubro' %}
+        {% when '11' %}{% assign m = 'Novembro' %}
+        {% when '12' %}{% assign m = 'Dezembro' %}
     {% endcase %}
 	<span class="post-date">{{ include.post.date | date: "%d %m, %Y" }}</span>
 </p>

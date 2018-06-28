@@ -6,6 +6,8 @@
       link: /portfolio/
     - name: Blog
       link: /blog/
+    - name: Buscar
+      link: /search/
     - name: Sobre
       link: /about/
     - name: Contato

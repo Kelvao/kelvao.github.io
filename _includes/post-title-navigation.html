@@ -4,7 +4,7 @@
 		    <a href="{{ site.baseurl }}/category/{{ category | slugify }}/" style="background-color:#222;color:#fff">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
-	{% assign m = include.page.date | date: "%-m" %}
+	{% assign m = include.post.date | date: "%-m" %}
     {% case m %}
         {% when '1' %}{% m = 'Janeiro' %}
         {% when '2' %}{% m = 'Fevereiro' %}

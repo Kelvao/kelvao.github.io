@@ -7,7 +7,7 @@ subtitle: Atualmente estudante de Análise de Sistemas
 <section class="diagonal patterned">
 	<div class="container">
 	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
-		<ul class="image-grid" max-width="50%" margin-left="25%">
+		<ul class="image-grid" style="max-width:50%;margin-left:25%">
 			{% for member in site.staff_members %}
 				<li>{% include staff-member.html member=member %}</li>
 			{% endfor %}

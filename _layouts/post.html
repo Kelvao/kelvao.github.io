@@ -39,21 +39,21 @@ layout: page
 <section class="diagonal alternate">
 	<div class="text-container">
 		{% if page.next %}
-		    <h2>Próximo post</h2>
+		    <h2>Próximo post:</h2>
 		    <div class="blog-post">
 				{% include post-summary.html post=page.next %}
 		    </div>	    
 		{% endif %}
+		{% if page.next && page.previous %}
+		    <br>
+		{% endif %}
 	    {% if page.previous %}
-	        <h2>Post anterior</h2>
+	        
+	        <h2>Post anterior:</h2>
 		    <div class="blog-post">
 			    {% include post-summary.html post=page.previous %}
 			</div>
 		{% endif %}
-		{% if !page.next && !page.previous %}
-		   {% include post-empty.html %}
-		{% endif %}
-		
 	</div>
 </section>
 

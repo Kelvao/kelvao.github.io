@@ -4,5 +4,21 @@
 		    <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
-	<span class="post-date">{{ include.post.date | date: "%B %d, %Y" }}</span>
+    {% assign m = include.page.date | date: "%-m" %}
+    {{ include.page.date | date: "%-d" }}
+    {% case m %}
+        {% when '1' %}Janeiro
+        {% when '2' %}Fevereiro
+        {% when '3' %}Março
+        {% when '4' %}Abril
+        {% when '5' %}Maio
+        {% when '6' %}Junho
+        {% when '7' %}Julho
+        {% when '8' %}Agosto
+        {% when '9' %}Setembro
+        {% when '10' %}Outubro
+        {% when '11' %}Novembro
+        {% when '12' %}Desembro
+    {% endcase %}
+	<span class="post-date">{{ include.post.date | date: "%d %B, %Y" }}</span>
 </p>

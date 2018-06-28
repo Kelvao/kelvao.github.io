@@ -14,9 +14,9 @@ subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é cla
 	</div>
 </section>
 
+ {% include search.html %}
 {% if paginator.total_pages > 1 %}
 	<section class="diagonal alternate">
-	    {% include search.html %}
 		<!-- Pagination links -->
 		<div class="pagination">
 			{% if paginator.previous_page %}

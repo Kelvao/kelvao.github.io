@@ -41,7 +41,7 @@ layout: page
 		{% if page.next %}
 		    <h2>Próximo post:</h2>
 		    <div class="blog-post">
-				{% include post-summary.html post=page.next %}
+				{% include post-summary-navigation.html post=page.next %}
 		    </div>	    
 		{% endif %}
 		{% if page.next && page.previous %}
@@ -50,7 +50,7 @@ layout: page
 	    {% if page.previous %}
 	        <h2>Post anterior:</h2>
 		    <div class="blog-post">
-			    {% include post-summary.html post=page.previous %}
+			    {% include post-summary-navigation.html post=page.previous %}
 			</div>
 		{% endif %}
 	</div>

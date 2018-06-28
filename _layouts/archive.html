@@ -14,6 +14,14 @@ layout: default
 	</div>
 </section>
 <section class="diagonal">
+    {% if site.posts.size > 0 %}
+         <div class="container">
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="search...">
+                <ul id="results-container"></ul>
+            </div>
+        </div>
+    {% endif %}
 	<div class="text-container">
 		<ul class="blog-posts">
 			{% include list-posts.html posts=page.posts %}

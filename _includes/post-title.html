@@ -4,21 +4,20 @@
 		    <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
-    {% assign m = include.page.date | date: "%-m" %}
-    {{ include.page.date | date: "%-d" }}
+    	{% assign m = include.post.date | date: "%-m" %}
     {% case m %}
-        {% when '1' %}Janeiro
-        {% when '2' %}Fevereiro
-        {% when '3' %}Março
-        {% when '4' %}Abril
-        {% when '5' %}Maio
-        {% when '6' %}Junho
-        {% when '7' %}Julho
-        {% when '8' %}Agosto
-        {% when '9' %}Setembro
-        {% when '10' %}Outubro
-        {% when '11' %}Novembro
-        {% when '12' %}Desembro
+        {% when '1' %}{% m = 'Janeiro' %}
+        {% when '2' %}{% m = 'Fevereiro' %}
+        {% when '3' %}{% m = 'Março' %}
+        {% when '4' %}{% m = 'Abril' %}
+        {% when '5' %}{% m = 'Maio' %}
+        {% when '6' %}{% m = 'Junho' %}
+        {% when '7' %}{% m = 'Julho' %}
+        {% when '8' %}{% m = 'Agosto' %}
+        {% when '9' %}{% m = 'Setembro' %}
+        {% when '10' %}{% m = 'Outubro' %}
+        {% when '11' %}{% m = 'Novembro' %}
+        {% when '12' %}{% m = 'Dezembro' %}
     {% endcase %}
-	<span class="post-date">{{ include.post.date | date: "%d %B, %Y" }}</span>
+	<span class="post-date">{{ include.post.date | date: "%d %m, %Y" }}</span>
 </p>

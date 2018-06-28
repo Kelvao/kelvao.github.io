@@ -43,7 +43,8 @@ layout: page
 	        {% if page.next or page.previous %}
 	            {% if page.next %}
 				    {% include post-summary.html post=page.next %}
-			    {% else %}
+			    {% endif %}
+			    {% if page.previous %}
 			        {% include post-summary.html post=page.previous %}
 			    {% endif %}
 		    {% else %}

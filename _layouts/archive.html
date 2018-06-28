@@ -11,10 +11,12 @@ layout: default
 		{% if blog.subtitle %}
 			<p class="subtext">{{ blog.subtitle }}</p>
 		{% endif %}
+		{% if page.posts.size > 1 %}
+		    {% include search.html %}
+	    {% endif %}
 	</div>
 </section>
 <section class="diagonal">
-    {% include search.html %}
 	<div class="text-container">
 		<ul class="blog-posts">
 			{% include list-posts.html posts=page.posts %}

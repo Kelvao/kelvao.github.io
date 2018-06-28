@@ -50,7 +50,7 @@ layout: page
 			    {% include post-summary.html post=page.previous %}
 			</div>
 		{% endif %}
-		{% if unless page.next and unless page.previous %}
+		{% if !page.next && !page.previous %}
 		   {% include post-empty.html %}
 		{% endif %}
 		

@@ -40,7 +40,7 @@ layout: page
 	<div class="text-container">
 		<h2>Próximo post</h2>
 		<div class="blog-post">
-	        {% if page.next || page.previous %}
+	        {% if page.next or page.previous %}
 	            {% if page.next %}
 				    {% include post-summary.html post=page.next %}
 			    {% else %}

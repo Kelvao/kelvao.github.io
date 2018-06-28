@@ -1,5 +1,11 @@
 <h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
-{% include post-title.html post=post %}
+{% if post.next %}
+    {% include post-title.html post=post.next %}
+{% elseif post.previous %}
+    {% include post-title.html post=post.previous %}
+{% else %}
+    {% include post-title.html post=post %}
+{% endif %}
 <div class="post-content">
 	{{ include.post.excerpt }}
 	<p><a href="{{ site.baseurl }}{{ include.post.url }}">Leia mais &rarr;</a></p>

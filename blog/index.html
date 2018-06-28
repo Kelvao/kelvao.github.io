@@ -10,7 +10,7 @@ subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é cla
         {% include search.html %}
     {% endif %}
 	<div class="text-container">
-	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Adicionar Post</a></p>
 		<ul class="blog-posts">
 			{% include list-posts.html posts=paginator.posts %}
 		</ul>
@@ -21,13 +21,11 @@ subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é cla
 		<!-- Pagination links -->
 		<div class="pagination">
 			{% if paginator.previous_page %}
-				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Novos posts</a>
-			{% endif %}
-
-			<span class="page_number ">{{ paginator.page }} de {{ paginator.total_pages }}</span>
-
+				<h2><a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Página anterior </a></h2>
+		    {% endif %}
+			<h2><span class="page_number ">{{ paginator.page }} de {{ paginator.total_pages }}</span></h2>
 			{% if paginator.next_page %}
-				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Posts antigos &rarr;</a>
+				<h2><a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn"> Página seguinte &rarr;</a></h2>
 			{% endif %}
 		</div>
 	</section>

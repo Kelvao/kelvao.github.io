@@ -16,7 +16,10 @@ layout: default
 
 <section class="diagonal">
 	<div class="text-container">
-	    {% include search.html %}
+	    <div id="search-container">
+            <input type="text" id="search-input" placeholder="search...">
+            <ul id="results-container"></ul>
+        </div>
 		<ul class="blog-posts">
 			{% include list-posts.html posts=page.posts %}
 		</ul>

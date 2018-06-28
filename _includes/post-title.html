@@ -1,7 +1,11 @@
 <p class="post-details">
 	{% for category in include.post.categories %}
 		<span class="blog-filter">
-			<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+		    {% if post.next or post.previous %}
+		        <a href="{{ site.baseurl }}/category/{{ category | slugify }}/" style="background-color:#222;color:#fff">{{ category | capitalize }}</a>
+		    {% else %}
+			    <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+			{% endif %}
 		</span>
 	{% endfor %}
 	<span class="post-date">{{ include.post.date | date: "%B %d, %Y" }}</span>

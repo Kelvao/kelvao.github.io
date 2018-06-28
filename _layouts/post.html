@@ -40,10 +40,13 @@ layout: page
 	<div class="text-container">
 		<h2>Próximo post</h2>
 		<div class="blog-post">
-			{% if page.next %}
-				{% include post-summary.html post=page.next %}
-			{% elsif page.previous %}
-				{% include post-summary.html post=page.previous %}
+			{% if page.next || page.previous %}
+			    {% if page next %}
+				    {% include post-summary.html post=page.next %}
+				{% endif %}
+				{% if page previous %}
+				    {% include post-summary.html post=page.previous %}
+			    {% endif %}
 			{% else %}
 			    {% include post-empty.html %}
 			{% endif %}

@@ -82,16 +82,16 @@
 	}
 }
 
-.header--block--result {
+.search--block--result {
   width: 100%;
   background: #fff;
   z-index: 9;
-  position: absolute;
   top: 80px;
   left: 0;
   border-radius: 4px;
     ul {
       list-style: none;
+      margin-left: -40px;
       li {
         border-bottom: 1px solid #ddd;
         border-left: 1px solid #ddd;
@@ -100,6 +100,7 @@
         box-sizing: border-box;
         &:first-child {
           border-top: 1px solid #ddd;
+          margin-top: 10px;
         }
           a {
             &:hover {

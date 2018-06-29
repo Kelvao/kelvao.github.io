@@ -10,15 +10,19 @@
       link: /contact/
 - title: Social
   links:
-    - name: 'Facebook'
+    - name: Facebook
       link: 'https://www.facebook.com/Kelvaum'
       social_icon: Facebook
       new_window: true
-    - name: 'LinkedIn'
+    - name: LinkedIn
       link: 'https://www.linkedin.com/in/k%C3%A9lvin-tesche-ievenes/'
       social_icon: LinkedIn
       new_window: true
-    - name: 'Instagram'
+    - name: Instagram
       link: 'https://www.instagram.com/Kelvao.png'
       social_icon: Instagram
+      new_window: true
+    - name: Twitter
+      link: 'https://www.twitter.com/KelvinIevenes'
+      social_icon: Twitter
       new_window: true

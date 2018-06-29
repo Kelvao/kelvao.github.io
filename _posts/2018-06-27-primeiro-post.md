@@ -13,7 +13,7 @@ Ol&aacute; meus caros leitores! Este &eacute; meu primeiro post! ***AEHOOO***
 
 [via GIPHY](https://giphy.com/gifs/sexy-popular-oXnN2TNSgfJQI)
 
-> *“Eai meu creme de avel&atilde;*
+> *“Eai meu creme de avel&atilde; :smirk:*
 
 Provavelmente voc&ecirc; ir&aacute; ver muitos gifs como este por aqui, ja que este blog n&atilde;o tem nada de formal e nem pretendo fazer algo formal. Tudo por aqui &eacute; feito apenas por eu gostar muito de programar para android e querem compartilhar com a comunidade. Irei postar praticamente tudo que eu fizer, ou seja, esse site me servira de portif&oacute;lio tamb&eacute;m, por mais que alguns projetos eu deixe privado, ainda postarei partes que utilizei de c&oacute;digo que poder&aacute; ser util para voc&ecirc; meu amado leitor!
 

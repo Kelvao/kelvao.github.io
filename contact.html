@@ -34,8 +34,8 @@ map:
 
 			<label for="message">Mensagem</label>
 			<textarea name="entry.658157565" id="message" placeholder="Aoba, turupom?"></textarea>
-
-			<input type="Submit" value="Enviar Mensagem" onClick="sendMail()" />
+            <input type="hidden" name="redirect" value="{{ site.baseurl }}/contact-success"> 
+			<input type="Submit" value="Enviar Mensagem" />
 		</form>
 	</div>
 </section>

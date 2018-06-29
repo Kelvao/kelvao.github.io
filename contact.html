@@ -35,7 +35,7 @@ map:
 			<label for="message">Mensagem</label>
 			<textarea name="entry.658157565" id="message" placeholder="Aoba, turupom?"></textarea>
 
-			<input type="Submit" value="Submit.Enviar" />
+			<input type="Submit" value="Submit.Enviar" onClick="sendMail()" />
 		</form>
 	</div>
 </section>
@@ -56,7 +56,11 @@ map:
 		</div>
 	</div>
 </section>
-
+<script type="text/javascript">
+    function sendMail() {
+        window.top.location.assign("{{ site.url }}/contact-success/");
+    }
+</script>
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 

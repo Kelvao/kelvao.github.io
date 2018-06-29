@@ -72,7 +72,6 @@ DEPENDENCIES
   jekyll-paginate (= 1.1.0)
   jekyll-seo-tag (= 2.4.0)
   jekyll-sitemap (= 1.2.0)
-  jemoji (= 0.10.0)
 
 BUNDLED WITH
    1.16.0

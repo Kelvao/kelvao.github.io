@@ -2,8 +2,6 @@
   links:
     - name: Home
       link: /
-    - name: Portfolio
-      link: /portfolio/
     - name: Blog
       link: /blog/
     - name: Sobre
@@ -19,4 +17,8 @@
     - name: LinkedIn
       link: 'https://www.linkedin.com/in/k%C3%A9lvin-tesche-ievenes/'
       social_icon: LinkedIn
+      new_window: true
+     - name: Instagram
+      link: 'https://www.instagram.com/Kelvao.png'
+      social_icon: Instagram
       new_window: true

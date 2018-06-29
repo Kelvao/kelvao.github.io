@@ -33,9 +33,9 @@ map:
 			<input type="email" name="entry.339237219" id="email" placeholder="kelvin.ievenes@fatec.sp.gov.br" required />
 
 			<label for="message">Mensagem</label>
-			<textarea name="message" id="message" placeholder="Aoba, turupom?"></textarea>
+			<textarea name="entry.658157565" id="message" placeholder="Aoba, turupom?"></textarea>
 
-			<input type="submit" value="Enviar Mensagem" />
+			<input type="Submit" value="Submit.Enviar" onClick="sendMail()" />
 		</form>
 	</div>
 </section>
@@ -56,7 +56,11 @@ map:
 		</div>
 	</div>
 </section>
-
+<script type="text/javascript">
+    function sendMail() {
+        window.top.location.assign("{{ site.baseurl }}/contact-success/");
+    }
+</script>
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 

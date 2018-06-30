@@ -1,5 +1,5 @@
 {% for post in include.posts %}
-    {% if post.category == {{ page.title }} 
+    {% if post.category == {{ page.title }} %}
 	    <li class="blog-post">{% include post-summary.html post=post %}</li>
 	{% endif}
 {% endfor %}

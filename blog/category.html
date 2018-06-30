@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Blog
-heading: Blog
-subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é claro)
+title: {{ post.category }}
+heading: Blog / {{ post.category }}
+subtitle:
 ---
 <section id="posts" class="diagonal">
     {% if posts.size > 5 %}
@@ -11,7 +11,7 @@ subtitle: Fique a vontade para ler e aprender (e também ensinar e opinar é cla
 	<div class="text-container">
 	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Adicionar Post</a></p>
 		<ul class="blog-posts">
-			{% include list-posts.html posts=paginator.posts %}
+			{% include list-posts-category.html posts=paginator.posts %}
 		</ul>
 	</div>
 </section>

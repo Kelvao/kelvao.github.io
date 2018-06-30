@@ -38,7 +38,7 @@ jekyll-archives:
     - month
     - day
     - categories
-  layout: '_layouts/archive.html'
+  layout: 'archive'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'

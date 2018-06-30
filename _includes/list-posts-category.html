@@ -1,0 +1,6 @@
+{% for post in include.posts %}
+    {{ page.url }}
+    {% if post.category == {{ page.url }} 
+	    <li class="blog-post">{% include post-summary.html post=post %}</li>
+	{% endif}
+{% endfor %}

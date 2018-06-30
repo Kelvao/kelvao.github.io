@@ -18,7 +18,7 @@ author:
 social:
   name: Kélvão
   links:
-    - https://github.com/Kelvao/kelvao.github.io
+    - https://kelvao.github.io
 
 timezone: Etc/UTC
 
@@ -40,10 +40,10 @@ jekyll-archives:
     - categories
   layout: 'archive'
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    category: '/category/:name/'
+    year: '/blog/:year/'
+    month: '/blog/:year/:month/'
+    day: '/blog/:year/:month/:day/'
+    category: '/blog/category/:name/'
 
 plugins:
   - "jekyll-feed"

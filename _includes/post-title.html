@@ -1,7 +1,7 @@
 <p class="post-details">
 	{% for category in include.post.categories %}
 		<span class="blog-filter">
-		    <a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+		    <a href="{{ page.url }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
     {% assign m = include.post.date | date: "%-m" %}

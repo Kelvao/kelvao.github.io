@@ -44,10 +44,10 @@ jekyll-archives:
     - categories
   layout: 'archive'
   permalinks:
-    year: '/blog/:year/'
-    month: '/blog/:year/:month/'
-    day: '/blog/:year/:month/:day/'
-    category: '/blog/category/:name/'
+    year: '/blog/:year.html'
+    month: '/blog/:year/:month.html'
+    day: '/blog/:year/:month/:day.html'
+    category: '/blog/category/:name.html'
 
 plugins:
   - "jekyll-feed"

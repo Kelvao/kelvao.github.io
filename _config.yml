@@ -34,7 +34,7 @@ permalink: pretty
 
 jekyll-archives:
   enabled:
-    - "categories"
+    - "category"
 
 plugins:
   - "jekyll-feed"

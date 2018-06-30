@@ -9,8 +9,6 @@ layout: page
 		</div>
 	</div>
 </section>
-
-
 {% if page.author_staff_member %}
 	<section class="diagonal patterned">
 		<div class="container">
@@ -18,13 +16,11 @@ layout: page
 			<ul class="image-grid">
 				{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 				{% assign author = site.staff_members | where: "url", author_id | first %}
-
 				<li>{% include staff-member.html member=author %}</li>
 			</ul>
 		</div>
 	</section>
 {% endif %}
-
 {% if page.show_comments %}
 <section class="diagonal">
     <div class="container">
@@ -56,7 +52,6 @@ layout: page
 	</div>
 </section>
 {% endif %}
-
 <!--{% if site.disqus_shortname and page.show_comments %}
 	<section class="diagonal">
 		<div class="container">

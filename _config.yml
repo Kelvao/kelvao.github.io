@@ -33,13 +33,16 @@ paginate_path: "/blog/:num/"
 permalink: pretty
 
 jekyll-archives:
-  enabled: 'all'
+  enabled: 
+    - year
+    - month
+    - day
+    - categories
   layout: 'archive'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
     category: '/category/:name/'
 
 plugins:

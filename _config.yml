@@ -43,7 +43,7 @@ jekyll-archives:
     year: '/:year/'
     month: '/:year/:month/'
     day: '/:year/:month/:day/'
-    category: '/category/:name/'
+    category: '/blog/category/:name/'
 
 plugins:
   - "jekyll-feed"

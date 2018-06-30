@@ -40,9 +40,9 @@ jekyll-archives:
     - categories
   layout: 'archive'
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
+    year: '/blog/:year/'
+    month: '/blog/:year/:month/'
+    day: '/blog/:year/:month/:day/'
     category: '/blog/category/:name/'
 
 plugins:

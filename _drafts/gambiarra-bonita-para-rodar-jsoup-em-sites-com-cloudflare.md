@@ -8,11 +8,7 @@ show_comments: true
 date: 2018-06-27 00:00:00
 ---
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+<div style="width:100%;height:0;padding-bottom:48%;position:relative;"><iframe src="https://giphy.com/embed/V6R9thgW7fimI" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/creepy-beard-zach-galifianakis-V6R9thgW7fimI">via GIPHY</a></p>
 
 > E ai meus rouxin&oacute;is do alasca
 

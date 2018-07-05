@@ -18,4 +18,4 @@ L&aacute; estava eu fazendo meus minis projetos que provavelmente nunca irei ter
 
 **Usar Jsoup em p&aacute;ginas o o diabo do Cloudflare!**
 
-Sim! h&aacute; salva&ccedil;&atilde;o para esse destruidor de apps da gambiarreira. A princ&iacute;pio eu pensava que n&atilde;o mas depois de muito tempo pesquisando descobri que um usu&aacute;rio do github chamado [zhkrb](https://github.com/zhkrb) criou uma classe para resolver esse problema utilizando um projeto do Anorov.
+Sim! h&aacute; salva&ccedil;&atilde;o para esse destruidor de apps da gambiarreira. A princ&iacute;pio eu pensava que n&atilde;o mas depois de muito tempo pesquisando descobri que um usu&aacute;rio do github chamado [zhkrb](https://github.com/zhkrb) criou uma [classe](https://github.com/zhkrb/cloudflare-scrape-Android) para resolver esse problema utilizando um [projeto](https://github.com/Anorov/cloudflare-scrape) do [Anorov](https://github.com/Anorov).

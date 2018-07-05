@@ -26,4 +26,4 @@ Sim! h&aacute; salva&ccedil;&atilde;o para esse destruidor de apps da gambiarrei
 
 Massssss, n&atilde;i satisfeito com isso, quis ajudar ainda mais, ent&atilde;o fiz uma biblioteca pra galero \\&otilde;/
 
-Ent&atilde;o sem mais enrola&ccedil;&otilde;es, como usar? como funfa? Bom.. primeiro voc&ecirc; ir&aacute; no meu reposit&oacute;rio do github[...](https://github.com/Kelvao/CloudflareScrape){: target="_blank"}
+Ent&atilde;o sem mais enrola&ccedil;&otilde;es, como usar? como funfa? Bom.. primeiro voc&ecirc; ir&aacute; no meu reposit&oacute;rio do github [aqui](https://github.com/Kelvao/CloudflareScrape){: target="_blank"}

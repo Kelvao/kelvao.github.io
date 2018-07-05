@@ -19,3 +19,6 @@ L&aacute; estava eu fazendo meus minis projetos que provavelmente nunca irei ter
 **Usar Jsoup em p&aacute;ginas o o diabo do Cloudflare!**
 
 Sim! h&aacute; salva&ccedil;&atilde;o para esse destruidor de apps da gambiarreira. A princ&iacute;pio eu pensava que n&atilde;o mas depois de muito tempo pesquisando descobri que um usu&aacute;rio do github chamado [zhkrb](https://github.com/zhkrb) criou uma [classe](https://github.com/zhkrb/cloudflare-scrape-Android) para resolver esse problema utilizando um [projeto](https://github.com/Anorov/cloudflare-scrape) do [Anorov](https://github.com/Anorov).
+
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/l0HlFZ3c4NENSLQRi" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/snl-saturday-night-live-snl-2016-l0HlFZ3c4NENSLQRi">via GIPHY</a></p>
+

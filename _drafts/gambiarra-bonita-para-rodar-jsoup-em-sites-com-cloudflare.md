@@ -36,4 +36,6 @@ Adicione o Jitpack no seu Gradle do projeto:
 
 Agora adicione a biblioteca no seu Gradle do app:
 
+<script src="https://gist.github.com/Kelvao/1261b490a30fae753a26be1371facecd.js"></script>
+
 &nbsp;

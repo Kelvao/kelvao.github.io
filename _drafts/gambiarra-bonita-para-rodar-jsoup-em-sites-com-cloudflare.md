@@ -25,4 +25,7 @@ Sim! h&aacute; salva&ccedil;&atilde;o para esse destruidor de apps da gambiarrei
 [via GIPHY](https://giphy.com/gifs/snl-saturday-night-live-snl-2016-l0HlFZ3c4NENSLQRi)
 
 Massssss, n&atilde;i satisfeito com isso, quis ajudar ainda mais, ent&atilde;o fiz uma biblioteca pra galero \\&otilde;/
-Ent&atilde;o sem mais enrola&ccedil;&otilde;es, como usar? como funfa? Bom.. primeiro voc&ecirc; ir&aacute; no meu reposit&oacute;rio do github [aqui](https://github.com/Kelvao/CloudflareScrape){: target="_blank"}
+Ent&atilde;o sem mais enrola&ccedil;&otilde;es, como usar? como funfa? Bom.. primeiro voc&ecirc; ir&aacute; no meu reposit&oacute;rio do github [aqui](https://github.com/Kelvao/CloudflareScrape){: target="_blank"}.
+
+Adicione o jitpack no seu Gradle do projeto:
+<script src="https://gist.github.com/Kelvao/cb797f53e4069e369a6a54cbbda75108.js"></script>
